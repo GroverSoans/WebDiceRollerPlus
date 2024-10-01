@@ -30,10 +30,10 @@ input {
     text-align: center;
     font-weight: bold;
 }
-
-#diceResults {
+#diceResult {
     margin: 25px;
 }
+
 
 #diceImages img {
     width: 150px;
@@ -42,7 +42,12 @@ input {
 }
 
 #envBanner {
-    margin-top: 20px;
-    font-size: 1.5rem;
-    color: gray; /* Optional styling */
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: max-content;
 }
